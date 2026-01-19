@@ -5,7 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "milvus-lite>=2.5.1",
     "openai>=2.15.0",
+    "pip>=25.3",
+    "pymilvus>=2.4.0",
+    "pymilvus-model>=0.3.2",
     "requests>=2.32.5",
+    "torch>=2.9.1",
     "tqdm>=4.67.1",
 ]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
